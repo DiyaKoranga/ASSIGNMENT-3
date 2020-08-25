@@ -13,7 +13,7 @@ int real, imag;
 istream & operator >> (istream &input,  Complex &c)
 {cout << "input real part: ";
 input >> c.real;
-cout << "Einput Imaginary Part: ";
+cout << "input Imaginary Part: ";
 input >> c.imag;
 return input;
 }
